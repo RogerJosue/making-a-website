@@ -4,11 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+    background: #96bdc6;
+}
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 nav {
+     height: 8%;
+     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
     background-color: #96bdc6;
     font-family: 'Poppins', sans-serif;
 }
@@ -18,19 +29,23 @@ nav {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-between;
-    width:70%;
+    align-items: center;
+    width:60%;
+
 }
 
 .nav-links li{
     list-style: none;
 }
 .nav-links a{
-    color: white;
+    color: #FFFFFA  ;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -48,6 +63,119 @@ nav {
     background-color: white;
     margin: 5px;
 }
+a:hover {
+  text-decoration: underline;
+}
+
+.words {
+  height: 92%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.jordan {
+    display: flex ;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; 
+}
+
+.holderOfButton {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.homeButton {
+    height: 20%;
+    width: 20%;
+    background-color: #EDF5FC;
+    box-shadow: 0 0 5px #EDF5FC, 0 0 25px #EDF5FC;
+    border-radius: 20px;
+    border: none;
+}
+
+.homeButton:hover {
+    box-shadow: 0 0 5px #EDF5FC,
+    0 0 25px #EDF5FC, 0 0 50px #EDF5FC,
+    0 0 100px #EDF5FC, 0 0 200px #EDF5FC;
+}
+
+.helloWeb {
+    color: #3F7CAC;
+    display: flex;
+}
+
+.holderOfHi {
+    width: 55%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.homeImage {
+    width: 400px;
+}
+
+#about {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: red;
+}
+
+#resume {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: orange;
+}
+
+#services {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: green;
+}
+#skills {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: aqua;
+}
+#projects {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: yellow;
+}
+
+#myblog {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: brown;
+}
+
+#contact {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: blue;
+}
+
+
 
 @media screen and (max-width:1024px) {
     .nav-links {
