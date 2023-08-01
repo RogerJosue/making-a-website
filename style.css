@@ -204,32 +204,42 @@ a:hover {
 }
 
 .small {
-    color: #3F7CAC;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 15px;
+    letter-spacing: 3px;
+    font-size: 14px;
     display: flex;
-    align-items: center; 
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
 }
 
 .big {
-    color: #3F7CAC;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 35px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
 }
 
+.p-about {
+    height: 35%;
+    width: 90%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: balance;
+}
 .pInAbout {
-    color: #EDF5FC;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
+    color: black;
+    font-weight: bolder;  
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 #resume {
-    height: 280vh;
+    height: 285vh;
     width: 100vw;
     display: flex;
 }
@@ -245,9 +255,20 @@ a:hover {
  width: 100%;
  height: 25%;
  display: flex;
+ display:flex;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
+
 }
+
+.holder-Wres {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+} 
+
 
 .row {
     height: 100%;
@@ -274,13 +295,13 @@ a:hover {
     align-items: center;
 }
 .nameOfRes {
-    color: #3F7CAC;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
-    align-items: center;
-    font-weight: bold;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    color: white;
 }
 .wordsOfRes{
     flex-wrap:balance;
@@ -311,6 +332,8 @@ a:hover {
     background-color:#81ADC8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .date {
@@ -336,14 +359,16 @@ a:hover {
 
 .p-row {
     height: 50%;
-    width: 100%;
+    width: 80%;
     display: flex;
     color: #F4EDED;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .p-r{
-    font-weight: bolder;    
+    font-weight: bolder;  
+    font-family: 'Space Grotesk', sans-serif;  
 }
 
 .top-section {
@@ -362,6 +387,8 @@ a:hover {
     background-color:#81ADC8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -371,6 +398,8 @@ a:hover {
     background-color:#81ADC8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -380,6 +409,8 @@ a:hover {
     background-color:#81ADC8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle1 {
@@ -388,6 +419,8 @@ a:hover {
     background-color:#81ADC8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -397,6 +430,8 @@ a:hover {
     background-color:#81ADC8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .bor {
@@ -423,10 +458,174 @@ a:hover {
 }
 
 #services {
-    height: 100vh;
+    height: 170vh;
     width: 100vw;
     display: flex;
-    background: green;
+}
+
+.containerServices {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesLogo {
+    height: 23%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.h-s {
+    height: 40%;
+    width: 80%;
+  
+} 
+
+.p-services {
+    height:65%;
+    width: 52%;
+   
+}
+
+.h-logo {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+    /* font-family: 'Space Grotesk', sans-serif; */
+}
+
+.p-s {
+    font-weight: bolder;  
+    font-family: 'Space Grotesk', sans-serif;    
+}
+
+.containerOfHoverDiv {
+ height: 55%;
+ width: 85%;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}
+
+.top-row {
+    height: 40%;
+    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.bottom-row {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.top-1 {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    background-color:#81ADC8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-services {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-1 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wordsOfS {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blankdiv {
+    height: 1px;
+    width: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-2 {
+    height: 100%;
+    width: 30%;
+    background-color:#81ADC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.top-3 {
+    height: 100%;
+    width: 30%;
+    background-color:#81ADC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bottom-1 {
+    height: 100%;
+    width: 30%;
+    background-color:#81ADC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttom-2 {
+    height: 100%;
+    width: 30%;
+    background-color:#81ADC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttom-3 {
+    height: 100%;
+    width: 30%;
+    background-color:#81ADC8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #skills {
     height: 100vh;
