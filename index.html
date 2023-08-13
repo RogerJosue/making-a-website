@@ -1,325 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="script.js" async defer></script>
+  <title>Creating a website</title>
+</head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <li>
+        <h4 class="about" onclick="switchTo('home')">hermano</h4>
+      </li>
+    </div>
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <ul class="nav-links">
+      <li>
+        <p class="about" onclick="switchTo('about')">About</p>
+      </li>
+      <li>
+        <p class="about" onclick="switchTo('resume')">resume</p>
+      </li>
+      <li>
+        <p class="about" onclick="switchTo('services')">Services</p>
+      </li>
+      <li>
+        <p class="about" onclick="switchTo('skills')">Skills</p>
+      </li>
+      <li>
+        <p class="about" onclick="switchTo('projects')">Projects</p>
+      </li>
+      <li>
+        <p class="about" onclick="switchTo('myblog')">My Blog</p>
+      </li>
+      <li>
+        <p class="about" onclick="switchTo('contact')">Contact</p>
+      </li>
+    </ul>
 
-    <link rel="stylesheet" href="./style.css" />
-    <title>Creating a website</title>
-  </head>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line3"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+  <div id="home">
+    <!-- this is where the navbar finished -->
+    <div class="words">
+      <div class="whatIDo">
+        <h3>USA</h3>
+      </div>
+      <div class="jordan">
+        <h1 class="h-h">New York</h1>
+        <h1 class="h-h">& Future Home</h1>
+      </div>
 
-  <body>
-    <div id="home">
-      <nav>
-        <div class="logo">
-          <h4>hermano</h4>
-        </div>
-
-        <ul class="nav-links">
-          <li><a href="#home">home</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#resume">resume</a></li>
-          <li><a href="#services">services</a></li>
-          <li><a href="#skills">skills</a></li>
-          <li><a href="#projects">projects</a></li>
-          <li><a href="#myblog">my blog</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
-
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line3"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-       <!-- this is where the navbar finished -->
-      <div class="words">
-        <div class="whatIDo">
-          <h3>Front Web Developer</h3>
-        </div>
-        <div class="jordan">
-          <h1 class="h-h">
-            Literally Rooni 
+      <div class="holderOfButton">
+        <button class="homeButton">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <!-- font-family: 'Flamenco', cursive; font-family: 'Poppins', sans-serif; -->
+  <div id="about">
+    <div class="about-section">
+      <div class="container-about">
+        <div class="wh-about">
+          <h1 class="w-about">
+            Hard Work And Dedication Is The Main Key For Success
           </h1>
-          <h1 class="h-h">
-            & More Then A Goat 
-          </h1>
         </div>
-
-        <div class="holderOfButton">
-          <button class="homeButton">Learn More</button>
+        <div class="h-b">
+          <h3 class="about-h3">From: literally the Goat</h3>
+          <button class="about-button">Learn about Me</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="about">
-      <div class="containerOfImage">
-        <img
-          width="500px"
-          class="aboutImage"
-          src="img/roni.jpg"
-          alt="about-Roni"
-        />
-      </div>
-      <div class="wordsOfAbout">
-        <div class="containerOfH1">
-          <h1 class="big">about me</h1>
-          <h3 class="small">Literally the Goat</h3>
-
-         <div class="p-about">
-          <p class="pInAbout">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. inventore
-            unde sed asperiores similique, provident ratione. Necessitatibus
-            obcaecati eum ea nihil, fuga sapiente, pariatur consequuntur cum
-            numquam, fugiat non dolorum reprehenderit commodi. Iste illum
-            sapiente error fugit,
-          </p>
-         </div>
-          
-          <div class="holderOfButtonOfAbout">
-            <p class="pc120">120 Projects Complete</p>
+  <div id="resume">
+    <div class="resume-section">
+      <div class="bg-resume">
+        <div class="onTop">
+          <img class="img-resume" width="200px" src="img/about-2.avif" alt="" />
+          <div class="info">
+            <div class="h2-rt">
+              <h2>Maya Nelson</h2>
+            </div>
+            <div class="line-div"></div>
+            <h4>Project Manager</h2>
           </div>
-            <button class="aboutbutton">see Roni</button>
+          <div class="media">
+            <img width="30px" src="img/insta.png" alt="">
+            <img width="30px" src="img/snap.png" alt="">
+            <img width="30px" src="img/git.png" alt="">
+            <img width="30px" src="img/mess.png" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="right-side">
+        <div class="w-resume">
+          <div class="wh-resume">
+            <h1>hello</h1>
+          </div>
+          <div class="h3-resume">
+            <h3>Here's who I am & what I do</h3>
+          </div>
+          <div class="resume-button">
+            <button class="b-resume">Resume</button>
+            <button class="b-resume">Projects</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="containerServices">
+      <div class="w-services">
+        <h3 class="h-m">what i will do for you</h3>
+        <h1 class="h-sr">Services</h1>
+      </div>
+      <div class="box-holder">
+        <div class="box1">
+          <div class="img-services"><img width="50px" src="img/sv.png" alt=""></div>
+          <div class="h3-services">
+            <h3>Web design</h3>
+          </div>
+          <div class="p-services">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum, id accusantium corrupti
+              voluptatibus modi dolore esse et asperiores quaerat.</p>
+          </div>
+        </div>
+        <div class="box2">
+          <div class="img-services"><img width="50px" src="img/tb.png" alt=""></div>
+          <div class="h3-services">
+            <h3>Web design</h3>
+          </div>
+          <div class="p-services">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum, id accusantium corrupti
+              voluptatibus modi dolore esse et asperiores quaerat.</p>
+          </div>
+        </div>
+        <div class="box3">
+          <div class="img-services"><img width="50px" src="img/ph.png" alt=""></div>
+          <div class="h3-services">
+            <h3>Web design</h3>
+          </div>
+          <div class="p-services">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum, id accusantium corrupti
+              voluptatibus modi dolore esse et asperiores quaerat.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="resume">
-      <div class="containerOfRes">
-        <div class="titleOfRes">
-          <div class="tor">
-          <h1 class="nameOfRes">Resume</h1>
-          </div>
-          <div class="holder-Wres">
-            <p class="wordsOfRes">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim mollitia voluptatem maiores libero, exercitationem possimus dolorem fugit. Error aut recusandae, ipsa velit rem impedit at ducimus praesentium. Iusto deserunt, nisi id asperiores saepe quae laudantium alias optio inventore?
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="right">
-            <div class="top">
-              <div class="top-section">
-                <span class="date">2014-2015</span>
-                <h2 class="h2OfResume">Master Degree Of Design</h2>
-                <span class="location">Cambridge University</span>
-              </div>
-              <div class="p-row">
-                <p class="p-r">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-
-            <div class="middle">
-              <div class="top-section">
-                <span class="date">2014-2015</span>
-                <h2 class="h2OfResume">Master Degree Of Design</h2>
-                <span class="location">Cambridge University</span>
-              </div>
-              <div class="p-row">
-                <p class="p-r">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="bottom">
-              <div class="top-section">
-                <span class="date">2014-2015</span>
-                <h2 class="h2OfResume">Master Degree Of Design</h2>
-                <span class="location">Cambridge University</span>
-              </div>
-              <div class="p-row">
-                <p class="p-r">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="left">
-            <div class="top1">
-              <div class="top-section">
-                <span class="date">2014-2015</span>
-                <h2 class="h2OfResume">Master Degree Of Design</h2>
-                <span class="location">Cambridge University</span>
-              </div>
-              <div class="p-row">
-                <p class="p-r">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="middle1">
-              <div class="top-section">
-                <span class="date">2014-2015</span>
-                <h2 class="h2OfResume">Master Degree Of Design</h2>
-                <span class="location">Cambridge University</span>
-              </div>
-              <div class="p-row">
-                <p class="p-r">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-            <div class="bottom1">
-              <div class="top-section">
-                <span class="date">2014-2015</span>
-                <h2 class="h2OfResume">Master Degree Of Design</h2>
-                <span class="location">Cambridge University</span>
-              </div>
-              <div class="p-row">
-                <p class="p-r">
-                  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="buttonOfResume">
-          <div class="bor">
-            <button class="b-resume">Download CV</button>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div id="services">
-      <div class="containerServices">
-
-        <div class="servicesLogo">
-            <div class="h-s">
-              <h1 class="h-logo">Services</h1>
-            </div>
-            <div class="p-services">
-              <p class="p-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eligendi odit, adipisci sint laudantium eaque cumque consequuntur iure rerum exercitationem atque quidem quam quod nisi? Totam quas minima beatae aliquid debitis inventore maxime, ad atque id officiis sapiente repellat, placeat earum voluptatibus aspernatur suscipit!
-              </p>
-            </div>
-        </div>
-
-       <div class="containerOfHoverDiv">
-         <div class="top-row">
-          <div class="top-1">
-            <div class="img-services">
-              <img class="img-1" src="img/flag-Usa.png" alt="usa">
-            </div>
-            <div class="wordsOfS">
-              <h3>America</h3>
-            </div>
-            <div class="blankdiv"></div>
-          </div>
-
-          <div class="top-2">
-            <div class="img-services">
-              <img class="img-1" src="img/flag-Guatemala.png" alt="Guatemala">
-            </div>
-            <div class="wordsOfS">
-              <h3>Guatemala</h3>
-            </div>
-            <div class="blankdiv"></div>
-          </div>
-
-          <div class="top-3">
-            <div class="img-services">
-              <img class="img-1" src="img/flag-Spain.png" alt="Spain">
-            </div>
-            <div class="wordsOfS">
-              <h3>Spain</h3>
-            </div>
-            <div class="blankdiv"></div>
-          </div>
-
-         </div>
-         <div class="bottom-row">
-            <div class="bottom-1">
-              <div class="img-services">
-                <img class="img-1" src="img/land-usa.png" alt="land-usa">
-              </div>
-              <div class="wordsOfS">
-                <h3>Land usa</h3>
-              </div>
-              <div class="blankdiv"></div>
-            </div>
-            <div class="buttom-2">
-              <div class="img-services">
-                <img class="img-1" src="img/land-guatemala.png" alt="land-guatemala">
-              </div>
-              <div class="wordsOfS">
-                <h3>Land Guatemala</h3>
-              </div>
-              <div class="blankdiv"></div>
-            </div>
-            <div class="buttom-3">
-              <div class="img-services">
-                <img class="img-1" src="img/land-spain.png" alt="Spain">
-              </div>
-              <div class="wordsOfS">
-                <h3>Land Spain</h3>
-              </div>
-              <div class="blankdiv"></div>
-            </div>
-         </div>
-       </div>
-      </div>
-    </div>
-
-    <div id="skills">
-      <div class="skills-section">
-
-       <div class="holder-skillslogo">
+  <div id="skills">
+    <div class="skills-section">
+      <div class="holder-skillslogo">
         <div class="logo-skills">
           <h1 class="sk-logo">skills</h1>
         </div>
         <div class="word-skills">
-          <p class="p-skills">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          <p class="p-skills">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
         </div>
-       </div>
+      </div>
 
-        
-         
-       <div class="container-s">
-       <ul>
-        <li id="html" class="li-s">html</li>
-        <li id="css" class="li-s">css</li>
-        <li id="js" class="li-s">javascript</li>
-        <li id="seo" class="li-s">seo</li>
-       </ul>
-       </div>
-
-       </div>
-       </div>
-
-
-    <div id="projects">
-        <div class="container-p">
-          <div class="h-p">
-            <div>
-              <div>
-                
-              </div>
-            </div>
-          </div>
-          <div class="h-img"></div>
-        </div>
+      <div class="container-s">
+        <ul>
+          <li id="html" class="li-s">html</li>
+          <li id="css" class="li-s">css</li>
+          <li id="js" class="li-s">javascript</li>
+          <li id="seo" class="li-s">seo</li>
+        </ul>
+      </div>
     </div>
-    <div id="myblog"></div>
-    <div id="contact"></div>
-  </body>
+  </div>
+
+  <div id="projects">
+    <div class="projects-section">
+      <div class="header-pro">
+        <h1 class="h1-projects">Projects</h1>
+      </div>
+      <div  class="partTwo">
+        <div class="subheading">
+          <h1>select the version that suits you</h1>
+        </div>
+        <div class="divs-projects">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myblog"></div>
+  <div id="contact"></div>
+</body>
+
 </html>
